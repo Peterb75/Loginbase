@@ -74,6 +74,7 @@ class Login extends Component {
                     <div>
                         <label class="con">Contraseña:</label> <br></br>
                         <input
+                        
                             type="password"
                             name="password"
                             value={this.state.password}
@@ -81,7 +82,7 @@ class Login extends Component {
                         />
                     </div>
                     <br></br>
-                    <button class="but" type="submit">Iniciar Sesión</button>
+                    <button class="btn btn-primary mb-3"  id="but"type="submit">Iniciar Sesión</button>
                 </form>
             </div>
         );
